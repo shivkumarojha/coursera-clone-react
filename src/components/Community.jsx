@@ -29,10 +29,11 @@ export default function Community() {
           sx={{
             display: "flex",
             justifyContent: "space-evenly",
-            marginBottom: 10  
+            marginBottom: 10,
           }}
         >
           <CommunityMember
+            name={"Chitranshee"}
             image={Chitranshee}
             place={"India"}
             quote={
@@ -41,6 +42,7 @@ export default function Community() {
             width={"300px"}
           />
           <CommunityMember
+            name={"Anisha"}
             image={Anisha}
             place={"USA"}
             quote={
@@ -49,6 +51,7 @@ export default function Community() {
             width={"300px"}
           />
           <CommunityMember
+            name={"Carlos"}
             image={Carlos}
             place={"USA"}
             quote={
